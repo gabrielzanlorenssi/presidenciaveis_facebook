@@ -2,7 +2,7 @@
 //Importar delimitado gerado pelo R
 import delimited facebook.csv, delimiter(";") 
 
-//Gerar vari·vel de data
+//Gerar vari√°vel de data
 destring month, replace
 gen month2 = substr(month, 6, 2)
 destring month2, replace
